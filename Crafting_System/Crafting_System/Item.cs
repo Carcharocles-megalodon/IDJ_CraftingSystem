@@ -6,15 +6,18 @@ namespace Crafting_System
 {
     class Item
     {
-        public string Name { get; set; }
+        public string title { get; set; }
+        public int id { get; set; }
+        public Dictionary<string, int> stats = new Dictionary<string, int>();
 
-        public uint Tier { get; set; }
+        
 
 
-        public Item(string Name, uint Tier)
+        public Item(string title, int id, Dictionary<string, int> stats)
         {
-            this.Name = Name;
-            this.Tier = Tier;
+            this.title = title;
+            this.id = id;
+            this.stats = stats;
         }
     }
 }

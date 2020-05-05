@@ -4,8 +4,7 @@ using System.Text;
 
 namespace Crafting_System
 {
-    class ItemMaterial : Item
+    class Recipe
     {
-
     }
 }
