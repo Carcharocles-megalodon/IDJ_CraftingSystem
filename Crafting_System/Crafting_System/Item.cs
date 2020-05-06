@@ -8,9 +8,9 @@ namespace Crafting_System
     {
         public string title { get; set; }
         public int id { get; set; }
-        public Dictionary<string, int> stats = new Dictionary<string, int>();
-
         
+
+        public Dictionary<string,int> stats { get; set; }
 
 
         public Item(string title, int id, Dictionary<string, int> stats)

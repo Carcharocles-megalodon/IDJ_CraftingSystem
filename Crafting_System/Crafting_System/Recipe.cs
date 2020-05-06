@@ -6,10 +6,13 @@ namespace Crafting_System
 {
     class Recipe
     {
-        Item [] requiredItems;
-        Item outputItem;
-        bool learned = false;
-        public Recipe(Item[]requiredItems, Item outputItem)
+        public Item [] requiredItems { get; set; }
+
+
+
+        public Item [] outputItem { get; set; }
+        public bool learned = false;
+        public Recipe(Item[]requiredItems, Item [] outputItem)
         {
             this.requiredItems = requiredItems;
             this.outputItem = outputItem;

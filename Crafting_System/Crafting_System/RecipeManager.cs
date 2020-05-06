@@ -6,11 +6,16 @@ namespace Crafting_System
 {
     class RecipeManager
     {
-        List<Recipe> recipeList;
+        public List<Recipe> recipeList { get; set; }
 
         public void Add(Recipe toAdd)
         {
             recipeList.Add(toAdd);
+        }
+        public bool IsLearned(Recipe recipe)
+        {
+            if (recipe.learned != true) return false;
+            else return true;
         }
     }
 }
