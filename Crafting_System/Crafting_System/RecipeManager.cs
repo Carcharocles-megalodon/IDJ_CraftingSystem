@@ -12,10 +12,10 @@ namespace Crafting_System
         {
             recipeList.Add(toAdd);
         }
-        public bool IsLearned(Recipe recipe)
+        /*public bool IsLearned(Recipe recipe)
         {
             if (recipe.learned != true) return false;
             else return true;
-        }
+        }*/
     }
 }
