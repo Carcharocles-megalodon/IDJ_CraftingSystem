@@ -5,22 +5,24 @@ using System.Text;
 namespace Crafting_System
 {
     
-    class Recipe
+    class Recipe : IItemRequirements, IOutputItems
     {
         public string Name 
         {
             get
             { return Name; } 
             set
-            { Name = outputItem.title + "Recipe"; }
+            { Name = OutputItems.title + "Recipe"; }
         }
-        public Item [] requiredItems { get; set; }
-        public Item outputItem { get; set; }
+        
+        public Item[] RequiredItems { get ; set; }
+        public Item OutputItems { get; set; }
+
         public bool learned = false;
-        public Recipe(Item[]requiredItems, Item outputItem)
+        public Recipe(Item[]RequiredItems, Item OutputItems)
         {
-            this.requiredItems = requiredItems;
-            this.outputItem = outputItem;
+            this.RequiredItems = RequiredItems;
+            this.OutputItems = OutputItems;
         }
     }
 }
