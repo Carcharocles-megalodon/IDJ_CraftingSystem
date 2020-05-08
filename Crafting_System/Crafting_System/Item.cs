@@ -17,5 +17,7 @@ namespace Crafting_System
             this.id = id;
             this.stats = stats;
         }
+
+        
     }
 }

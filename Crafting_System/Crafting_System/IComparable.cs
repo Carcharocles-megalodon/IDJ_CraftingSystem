@@ -6,5 +6,6 @@ namespace Crafting_System
 {
     interface IComparable
     {
+        bool CompareItems(Item[] item, Recipe recipe);
     }
 }

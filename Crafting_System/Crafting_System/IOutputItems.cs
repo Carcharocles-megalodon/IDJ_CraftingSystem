@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Crafting_System
 {
-    interface IOutputItems
+    interface IOutputItem
     {
-        public Item OutputItems { get; set; }
+        public Item OutputItem { get; set; }
     }
 }
