@@ -33,8 +33,9 @@ namespace Crafting_System
                 {
                     return recipe.OutputItem;
                 }
-                else throw new InvalidOperationException("You can't make this!");
+                
             }
+            throw new InvalidOperationException("You can't make this!");
         }
     }
 }

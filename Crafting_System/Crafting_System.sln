@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializeItens", "SerializeItens\SerializeItens.csproj", "{6A932911-210D-4440-B08A-57B2561A5F62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +22,16 @@ Global
 		{E05FA056-F006-46DE-96AE-637A684AA388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E05FA056-F006-46DE-96AE-637A684AA388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E05FA056-F006-46DE-96AE-637A684AA388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A932911-210D-4440-B08A-57B2561A5F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A932911-210D-4440-B08A-57B2561A5F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A932911-210D-4440-B08A-57B2561A5F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A932911-210D-4440-B08A-57B2561A5F62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A932911-210D-4440-B08A-57B2561A5F62} = {0A31982A-2FBC-4A50-B853-F826EE184D40}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8654D805-3A92-4D1A-B675-3D6D0BB4121B}

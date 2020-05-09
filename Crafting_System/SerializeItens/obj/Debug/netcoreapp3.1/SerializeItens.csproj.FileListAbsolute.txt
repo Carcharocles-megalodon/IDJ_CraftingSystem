@@ -1,0 +1,4 @@
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\bin\Debug\netcoreapp3.1\SerializeItens.exe
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\obj\Debug\netcoreapp3.1\SerializeItens.csprojAssemblyReference.cache
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\obj\Debug\netcoreapp3.1\SerializeItens.AssemblyInfoInputs.cache
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\obj\Debug\netcoreapp3.1\SerializeItens.AssemblyInfo.cs
