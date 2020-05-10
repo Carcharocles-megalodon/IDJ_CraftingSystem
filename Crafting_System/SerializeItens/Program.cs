@@ -40,12 +40,12 @@ namespace SerializeItens
                 new Recipe()
                 {
                     Name = "Sword Recipe",
-                    RequiredItems = new List<int>()
+                    RequiredItemsID = new List<int>()
                     {
                         01,
                         02
                     },
-                    OutputItem = 101       
+                    OutputItemID = 101       
                 }
             };
         }
