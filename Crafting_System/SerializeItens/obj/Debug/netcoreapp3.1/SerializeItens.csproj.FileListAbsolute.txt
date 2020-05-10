@@ -2,3 +2,15 @@ C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\bi
 C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\obj\Debug\netcoreapp3.1\SerializeItens.csprojAssemblyReference.cache
 C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\obj\Debug\netcoreapp3.1\SerializeItens.AssemblyInfoInputs.cache
 C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\obj\Debug\netcoreapp3.1\SerializeItens.AssemblyInfo.cs
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\bin\Debug\netcoreapp3.1\Crafting_System.exe
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\bin\Debug\netcoreapp3.1\SerializeItens.deps.json
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\bin\Debug\netcoreapp3.1\SerializeItens.runtimeconfig.json
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\bin\Debug\netcoreapp3.1\SerializeItens.runtimeconfig.dev.json
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\bin\Debug\netcoreapp3.1\SerializeItens.dll
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\bin\Debug\netcoreapp3.1\SerializeItens.pdb
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\bin\Debug\netcoreapp3.1\Crafting_System.dll
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\bin\Debug\netcoreapp3.1\Crafting_System.pdb
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\obj\Debug\netcoreapp3.1\SerializeItens.csproj.CopyComplete
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\obj\Debug\netcoreapp3.1\SerializeItens.dll
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\SerializeItens\obj\Debug\netcoreapp3.1\SerializeItens.pdb

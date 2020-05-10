@@ -11,7 +11,7 @@ namespace Crafting_System
         
 
         //public Dictionary<string,int> stats { get; set; }
-        public Item(string title, int id, Dictionary<string, int> stats)
+        public Item(string title, int id)//, Dictionary<string, int> stats)
         {
             this.Title = title;
             this.Id = id;

@@ -34,6 +34,20 @@ namespace SerializeItens
             };
             string json = JsonConvert.SerializeObject(items);
             File.WriteAllText("items.json", json);
+            items.ToArray();
+            List<Recipe> recipes = new List<Recipe>()
+            {
+                new Recipe()
+                {
+                    Name = "Sword Recipe",
+                    RequiredItems = new List<int>()
+                    {
+                        01,
+                        02
+                    },
+                    OutputItem = 101       
+                }
+            };
         }
     }
 }
