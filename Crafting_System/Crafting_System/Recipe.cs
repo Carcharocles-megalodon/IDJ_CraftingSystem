@@ -16,12 +16,12 @@ namespace Crafting_System
         }
         
         public List<int> RequiredItemsID { get ; set; }
-        public Item RequiredItems { get; set; }
+        public Item[] RequiredItems { get; set; }
         public Item OutputItem { get; set; }
         public int OutputItemID { get; set; }
 
         public bool learned = false;
-        public Recipe(Item RequiredItems, Item OutputItem)
+        public Recipe(Item [] RequiredItems, Item OutputItem)
         {
             this.RequiredItems = RequiredItems;
             this.OutputItem = OutputItem;

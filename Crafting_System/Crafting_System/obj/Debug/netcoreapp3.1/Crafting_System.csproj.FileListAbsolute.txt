@@ -9,3 +9,5 @@ C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\Crafting_System\o
 C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\Crafting_System\obj\Debug\netcoreapp3.1\Crafting_System.AssemblyInfo.cs
 C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\Crafting_System\obj\Debug\netcoreapp3.1\Crafting_System.dll
 C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\Crafting_System\obj\Debug\netcoreapp3.1\Crafting_System.pdb
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\Crafting_System\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Geral\source\repos\IDJ_CraftingSystem\Crafting_System\Crafting_System\obj\Debug\netcoreapp3.1\Crafting_System.csproj.CopyComplete
