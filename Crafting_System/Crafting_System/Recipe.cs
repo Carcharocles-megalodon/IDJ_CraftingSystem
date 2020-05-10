@@ -12,7 +12,7 @@ namespace Crafting_System
             get
             { return Name; } 
             set
-            { Name = OutputItem.title + "Recipe"; }
+            { Name = OutputItem.Title + "Recipe"; }
         }
         
         public Item[] RequiredItems { get ; set; }

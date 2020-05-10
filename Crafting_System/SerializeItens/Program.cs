@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using Crafting_System;
+using Newtonsoft.Json;
 
 namespace SerializeItens
 {
@@ -8,31 +10,31 @@ namespace SerializeItens
     {
         static void Main(string[] args)
         {
-            Dictionary<string, List<Item>> items = new Dictionary<string, List<Item>>();
-            List<Item> hams = new List<Item>()
+            List<Item> items = new List<Item>()
             {
-                new Item()
-                {
-                    title = "Big Mac",
-                    id = 1,
-                    stats =
-                    {
-                        
-                    }
-
-                    }
-                },
-
-                
-                
-
-           
-
-            JsonSerializerSettings settings = new JsonSerializerSettings();
-            settings.Formatting = Formatting.Indented;
-            string json = JsonConvert.SerializeObject(items, settings);
-
-            File.WriteAllText("output.json", json);
+              new Item()
+              {
+                Title = "Sword",
+                Id = 101
+              },new Item()
+              {
+                Title = "Stick",
+                Id = 01
+              },
+              new Item()
+              {
+                Title = "Metal",
+                Id = 02
+              },
+              new Item()
+              {
+                Title = "Shield",
+                Id = 102
+              }
+            };
+            string json = JsonConvert.SerializeObject(items);
+            File.WriteAllText("items.json", json);
         }
     }
 }
+
